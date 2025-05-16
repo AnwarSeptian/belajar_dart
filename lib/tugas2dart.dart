@@ -9,6 +9,6 @@ void nilai(){
   }
   else{
     print("Mahasiswa tidak lulus");
-    print ("Nilai : $rata");
+    print ("Nilai ew : $rata");
   }
 }
