@@ -19,25 +19,21 @@ void soal2(){
 }
 
 void soal3(){
-  int i = 1;
-  while (i<=5){
-    print("Aisyah ke-$i");
-    i++;
+  for (int i=1; i<=5; i++){
+    print("Aisyah");
   }
 }
 void soal4(){
   List<String> buah=["Apel","Jeruk","Mangga","Anggur"];
-  for (int i=0; i<buah.length; i++){
-    print("Saya Suka ${buah[i]} ");
-    
-  }
+  buah.forEach((isi){
+    print("Saya Suka $isi");
+  });
 }
 void soal5(){
   print("======List Sembako========");
-  List<String> sembako=["null","Beras","Minyak","Gula"];
-  for (int i=1; i<sembako.length; i++){
-    print("Item ke-$i ${sembako[i]}");
+  List<String> sembako=["Beras","Minyak","Gula"];
+  for (int i=0; i<sembako.length; i++){
+    print("Item ke-${i+1} ${sembako[i]}");
   }
-
 }
 
